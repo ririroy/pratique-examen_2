@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="square">
+            <p class="mobile">Plus petit que 768px</p>
+            <p class="tablette">Plus petit que 1024px</p>
+            <p class="desktop">Plus grand ou égal à 1024px</p>
+        </div>
+        <div class="square">
+            <p class="mobile">Plus petit que 768px</p>
+            <p class="tablette">Plus petit que 1024px</p>
+            <p class="desktop">Plus grand ou égal à 1024px</p>
+        </div>
+        <div class="square">
+            <p class="mobile">Plus petit que 768px</p>
+            <p class="tablette">Plus petit que 1024px</p>
+            <p class="desktop">Plus grand ou égal à 1024px</p>
+        </div>
+    </div>
+    <picture>
+        <source media="(min-width: 1024px)" srcset="./chien.jpg">
+        <img src="./chat.jpg" height="200px">
+    </picture>
+</body>
+<script src="app.js"></script>
+</html>
